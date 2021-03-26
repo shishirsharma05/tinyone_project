@@ -1,0 +1,232 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*header start*/
+    .menu ul li a {
+    	font-size: 18px;
+    	padding: 5px 0px !important;
+    	text-align: right;
+    	}
+    /*header end*/
+    /*slider start*/
+    .s-content {
+        margin-top: 15px;
+    }
+    .s-content h1 {
+        font-size: 21px;
+    }
+    .s-content h2 {
+        margin: 12px 0 13px;
+        font-size: 13px;
+    }
+    .s-content p {
+        margin: 0 0 28px;
+        font-size: 12px;
+    }
+    .s-icon li i {
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    .cid {
+        bottom: -55px;
+    }
+    .cid [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+    .slider {
+        padding-bottom: 50px;
+    }
+    /*features start*/
+    .features {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .f-h1{
+        margin: 0 0 10px;
+        font-size: 25px;
+    }
+    .f_p{
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+    .f_single{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .f_icon i{
+        font-size: 40px;
+    }
+    .fc_h2{
+        margin-bottom: 10px;
+    }
+    .fc_p{
+        letter-spacing: 0;
+    }
+    /*features end*/
+    /*contact start*/
+    .contact{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .f_submit{
+        margin-top: 20px;
+    }
+    /*contact end*/
+
+    /*social start*/
+    .social {
+        padding-bottom: 60px;
+    }
+    /*social end*/
+
+    /*footer start*/
+    .f_1{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /*footer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /*header start*/
+    .menu ul li a {
+    	font-size: 18px;
+    	padding: 5px 0px !important;
+    	text-align: right;
+    	}
+    /*header end*/
+    /*slider start*/
+    .s-content {
+        margin-top: 15px;
+    }
+    .s-content h2 {
+        margin: 12px 0 13px;
+        font-size: 23px;
+    }
+    .s-content p {
+        margin: 0 0 28px;
+        font-size: 16px;
+    }
+    .s-icon li i {
+        margin-right: 20px;
+        font-size: 35px;
+    }
+    .cid {
+        bottom: -55px;
+    }
+    .cid [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+    .slider {
+        padding-bottom: 50px;
+    }
+
+    /*features start*/
+    .features {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .f-h1{
+        margin: 0 0 10px;
+        font-size: 25px;
+    }
+    .f_p{
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    .f_single{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .f_icon i{
+        font-size: 40px;
+    }
+    .fc_h2{
+        margin-bottom: 10px;
+    }
+    /*features end*/
+
+    /*contact start*/
+    .contact{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    /*social start*/
+    .social {
+        padding-bottom: 60px;
+    }
+    /*social end*/
+    /*footer start*/
+    .f_1{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    /*footer end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+     /*header start*/
+    .menu ul li a {
+    	padding: 5px 0px !important;
+    	text-align: right;
+    	}
+    /*header end*/
+    .s-content {
+        margin-top: 50px;
+    }
+    .s-content h1 {
+        font-size: 30px;
+    }
+
+    .s-content h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .s-content p {
+        font-size: 13px;
+    }
+    /*features start*/
+    .features {
+        padding-top: 50px;
+    }
+    .f-single{
+        margin-top: 50px;
+
+    }
+    /*features end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .s-content h1 {
+        font-size: 28px;
+    }
+
+    .s-content h2 {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .s-content p {
+    
+        font-size: 13px;
+    }
+
+    .menu ul li a {
+        padding: 0 37px !important;
+    }
+}
+
+/*Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+    
+}
